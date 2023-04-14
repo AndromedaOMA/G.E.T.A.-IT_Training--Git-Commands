@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 ## PART 1:
 
-## Aceste comenzi le vei executa o singura data:
+✨Aceste comenzi le vei executa o singura data✨
 
 ⭐Initializezare git:
 ```bash
