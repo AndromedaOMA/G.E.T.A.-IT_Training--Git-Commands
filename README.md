@@ -1,3 +1,9 @@
+## Structura ghidului de comenzi GIT:
+* PART 1: Comenzi destinate initializarii lucrului cu GIT.
+* PART 2: Comenzi destinate lucrului cu repository-ul local.
+* PART 3: Comenzi destinate lucrului cu repository-ul remote.
+
+--------------------------------------------------------------------------------
 ## PART 1:
 
 ## Aceste comenzi le vei executa o singura data:
@@ -32,8 +38,10 @@ git remote add origin LINK
 ---------------------------------------------------------------------------------------------------
 
 🥳FELICITARI!
+
 Ai reusit sa initiezi tot ce este nevoie pentru a continua modificarea proiectului.
-Acum trebuie doar sa incepi sa modifici ce vrei sa modifici, apoi vei reveni la command prompt cu urmatoarele comenzi:
+
+Acum trebuie doar sa incepi sa modifici ce vrei sa modifici, apoi vei reveni la command prompt cu urmatoarele comenzi pentru lucrul cu repository-ul local:
 
 ---------------------------------------------------------------------------------------------------
 
@@ -153,5 +161,19 @@ git branch -d NUME
 * Unde "NUME" este numele branch-ului pe care dorim sa-l stergem.
 
 * Explicatie: Aceasta comanda pur si simplu va sterge branch-ul "NUME", impreuna cu toata informatia acestuia.
+
+
+
+---------------------------------------------------------------------------------------------------
+
+🥳FELICITARI!
+
+Ai reusit sa realizez toate modificarile necesare functionalitatii proiectului tau!
+
+Acum vom trece la treburi putinmai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu remository-ul remote:
+
+---------------------------------------------------------------------------------------------------
+
+## PART 3:
 
 
