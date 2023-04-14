@@ -26,15 +26,6 @@ git init
 ```
 * Explicatie: Prin initializare Git ne referim la crearea unui fisier special pentru a lucra mai departe cu Git si pentru stocarea istoricului, practic numai asa vei putea scrie urmatoarele comenzi, aceste informatii/comenzi sunt retinute in acest fisier.
 
-
-⭐Initializezare git:
-```bash
-git remote add origin LINK
-```
-* Unde "LINK" va fi inlocuit cu link-ul SSH al proiectului tau.
-
-* Explicatie: Ii asociezi repo-ului de pe GitHub o denumire mai accesibila, aceasta fiind "origin".
-
 ---------------------------------------------------------------------------------------------------
 
 🥳FELICITARI!
@@ -177,3 +168,24 @@ Acum vom trece la treburi putinmai serioase: lucrul cu repsitory-ul remote/GitHu
 ## PART 3:
 
 
+⭐Asociem un nume (deseori "origin") repositry-ului remote:
+```bash
+git remote add origin LINK
+```
+* Unde "LINK" va fi inlocuit cu link-ul SSH al proiectului tau.
+
+* Explicatie: Ii asociezi repo-ului de pe GitHub o denumire mai accesibila, aceasta fiind "origin".
+
+
+⭐Pentru stergerea unui branch:
+```bash
+git branch -M main
+```
+* Explicatie: Utilizând această comandă, se va redenumi ramura curentă a repo-ului la "main" și se va face ca toate commit-urile anterioare să aparțină de această nouă ramură principală. Acest lucru poate fi util dacă doriți să urmați practicile recomandate pentru a elimina utilizarea termenilor potențial ofensatori din proiectele tale Git.
+
+
+⭐Pentru stergerea unui branch:
+```bash
+git push -u origin main
+```
+* Explicatie: Comanda "git push -u origin main" este utilizată pentru a împinge ramura curentă (în acest caz, ramura "main") în repo-ul Git remote (în acest caz, numit "origin"). Opțiunea "-u" setează ramura de urmărire pentru ramura curentă, ceea ce înseamnă că următoarele comenzi "git push" pot fi folosite fără a specifica destinația și ramura în mod explicit.
