@@ -177,15 +177,23 @@ git remote add origin LINK
 * Explicatie: Ii asociezi repo-ului de pe GitHub o denumire mai accesibila, aceasta fiind "origin".
 
 
-⭐Pentru stergerea unui branch:
+⭐Pentru redenumirea ramurii curente in "main":
 ```bash
 git branch -M main
 ```
 * Explicatie: Utilizând această comandă, se va redenumi ramura curentă a repo-ului la "main" și se va face ca toate commit-urile anterioare să aparțină de această nouă ramură principală. Acest lucru poate fi util dacă doriți să urmați practicile recomandate pentru a elimina utilizarea termenilor potențial ofensatori din proiectele tale Git.
 
 
-⭐Pentru stergerea unui branch:
+⭐Pentru impingerea proiectului si usurarea lucrului cu "git push":
 ```bash
 git push -u origin main
 ```
 * Explicatie: Comanda "git push -u origin main" este utilizată pentru a împinge ramura curentă (în acest caz, ramura "main") în repo-ul Git remote (în acest caz, numit "origin"). Opțiunea "-u" setează ramura de urmărire pentru ramura curentă, ceea ce înseamnă că următoarele comenzi "git push" pot fi folosite fără a specifica destinația și ramura în mod explicit.
+
+
+
+⭐Pentru a verifica daca exista diferente intre proiectul de pe repository-ul local si cel de pe repository-ul remote:
+```bash
+git fetch
+```
+* Explicatie: Dupa apelarea acestei comenzi vom afla daca exista diferente intre proiectul de pe repository-ul local si cel de pe repository-ul remote. Daca exista modificari/diferente, atunci se vor afisa o multitudine de informatii. Nu este nevoie sa descifrati aceste informatii, afisarea lor evidentieaza faptul ca exista diferente intre proiectul de pe repository-ul local si cel de pe repository-ul remote. Altfel, daca nu se afiseaza nimic, atunci proiectul de pe repository-ul local este acelasi cu cel de pe repository-ul remote.
