@@ -8,6 +8,14 @@
 
 ## Aceste comenzi le vei executa o singura data:
 
+⭐Initializezare git:
+```bash
+git init
+```
+* Explicatie: Prin initializare Git ne referim la crearea unui fisier special pentru a lucra mai departe cu Git si pentru stocarea istoricului, practic numai asa vei putea scrie urmatoarele comenzi, aceste informatii/comenzi sunt retinute in acest fisier.
+
+
+
 ⭐Pentru a transfera/clona/duplica datele de pe remote repsitory/GitHub pe local repository/laptop-ul tau:
 ```bash
 git clone LINK
@@ -17,14 +25,6 @@ git clone LINK
 * Explicatie: (ATENTIE!) A nu se confunda cu comanda "git pull". Comanda "git clone" practic iti instaleaza proiectul, deja existent pe remote repsitory/GitHub, pe local repository/laptop-ul tau.
 
 * OBS: In cazul de fata, totul va fi pregatit pentru lucrul cu proiectul, deci poti sari la comenzile din a doua parte a fisierului!
-
-
-
-⭐Initializezare git:
-```bash
-git init
-```
-* Explicatie: Prin initializare Git ne referim la crearea unui fisier special pentru a lucra mai departe cu Git si pentru stocarea istoricului, practic numai asa vei putea scrie urmatoarele comenzi, aceste informatii/comenzi sunt retinute in acest fisier.
 
 ---------------------------------------------------------------------------------------------------
 
