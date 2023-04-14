@@ -66,7 +66,7 @@ git commit -m "MESAJ"
 ```
 * Unde "MESAJ" va fi inlocuit cu un o descriere a modificarii tale. De exemplu: "Am adaugat logo-ul site-ului pe pagina principala", descriere sugestiva pentru modificarea facuta anterior.
 
-* Explicatie: Faci commit la modificarile tale, adica creezi o eticheta schimbarilor prin care specifici ce ai schimbat prin mesajul aflat intre ghinimele, in loc de NUME vei scrie numele activitatii unde ai facut schimbarea, pentru o recunoastere mai usoara a schimbarilor
+* Explicatie: Faci commit la modificarile tale, adica creezi o eticheta schimbarilor prin care specifici ce ai schimbat prin mesajul aflat intre ghinimele.
 
  
 
