@@ -24,7 +24,7 @@ git clone LINK
 
 * Explicatie: (ATENTIE!) A nu se confunda cu comanda "git pull". Comanda "git clone" practic iti instaleaza proiectul, deja existent pe remote repsitory/GitHub, pe local repository/laptop-ul tau.
 
-* [Structura ghidului de comenzi GIT](#PART-1:-Comenzi-destinate-initializarii-lucrului-cu-GIT)
+* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ---------------------------------------------------------------------------------------------------
 
@@ -153,7 +153,7 @@ git branch -d NUME
 
 * Explicatie: Aceasta comanda pur si simplu va sterge branch-ul "NUME", impreuna cu toata informatia acestuia.
 
-
+* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ---------------------------------------------------------------------------------------------------
 
@@ -201,3 +201,6 @@ git fetch
 * ATENTIE! Exista posibilitatea ca dupa actualizarea proiectului tau pe repository-ul local, prin comanda "git pull", sa primiti o eroare de "conflicts", impreuna cu locatia/fisierul unde se afla conflictul. Aceasta eroare se poate rezolva prin deschiderea fisierului respectiv si remedierea situatiei prin simpla editare de cod.
 
   Exemplul urmator este destul de amplu. Pentru buna intelegere a conceptului de "cofnlicts", va sfatuiesc sa urmariti cu atentie exemplul/ situatia urmatoare: Avem un fisier numit "lista_de_cumparaturi.txt" aflata in repository-ul local si remote numit "LISTA", initial goala. Persoana care detine repository-ul remote "LISTA" doreste sa populeze lista, din repository-ul local, prin adaugarea unor fructe (Banane, Mere si Pere), timp in care o alta persoana, care are acces la repository-ul remote, prin intermediul GitHub, populeaza lista prin adaugarea unor legume (Rosii, Ardei si Morcovi). ATENTIE: Ambele liste sunt independente una de cealalta! Adica prima lista, cea de fructe, inca nu a fost impinsa pe repository-ul remote, iar cea de-a doua lista a fost adaugata direct pe repository-ul remote. Asrfel, utilizatorul care detine repository-ul "LISTA" nu va avea posibilitatea de a impinge modificarile sale (prin comanda "git push") si va fi nevoit sa traga informatiile noi din repository-ul remote (prin comanda "git push"). In acest moment, proiectul sau contine atat lista sa de fructe, cat si cea de legume, dar evidentiate ca fiind in conflict. Pentru rezolvarea conflictului, tot ce va mai trebui sa faca acesta este sa pastreze ce modificari doreste, de exemplu sa renunte la lista lui de fructe si sa o pastreze pe cea de legume, considerand ca nu mai are nevoie de cea cu fructe, prin stergerea acesteia, si in final sa stearga si liniile ce ajuta la evidentierea conflictului (acestea sunt marcate prin: "<<<<<<<<HEAD" , "========" si ">>>>>>>> 1231ubhbeh123b1i3b123i21", la final se genereaza un cod random, deci nu va bateti capul cu el). Acum conflictul este rezolvat, deci utilizatorul principal poate impinge noile modificari (prin prin comanda "git push").
+  
+  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
+
