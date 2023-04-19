@@ -24,6 +24,8 @@ git clone LINK
 
 * Explicatie: (ATENTIE!) A nu se confunda cu comanda "git pull". Comanda "git clone" practic iti instaleaza proiectul, deja existent pe remote repsitory/GitHub, pe local repository/laptop-ul tau.
 
+* [Structura ghidului de comenzi GIT](#PART-1:-Comenzi-destinate-initializarii-lucrului-cu-GIT)
+
 ---------------------------------------------------------------------------------------------------
 
 🥳FELICITARI!
