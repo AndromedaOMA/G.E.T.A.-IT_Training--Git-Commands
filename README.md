@@ -24,8 +24,6 @@ git clone LINK
 
 * Explicatie: (ATENTIE!) A nu se confunda cu comanda "git pull". Comanda "git clone" practic iti instaleaza proiectul, deja existent pe remote repsitory/GitHub, pe local repository/laptop-ul tau.
 
-* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
-
 ---------------------------------------------------------------------------------------------------
 
 🥳FELICITARI!
@@ -35,6 +33,8 @@ Ai reusit sa initiezi tot ce este nevoie pentru a continua modificarea proiectul
 Acum trebuie doar sa incepi sa modifici ce vrei sa modifici, apoi vei reveni la command prompt cu urmatoarele comenzi pentru lucrul cu repository-ul local:
 
 ---------------------------------------------------------------------------------------------------
+
+* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 2:
 
@@ -153,8 +153,6 @@ git branch -d NUME
 
 * Explicatie: Aceasta comanda pur si simplu va sterge branch-ul "NUME", impreuna cu toata informatia acestuia.
 
-* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
-
 ---------------------------------------------------------------------------------------------------
 
 🥳FELICITARI!
@@ -164,6 +162,8 @@ Ai reusit sa realizez toate modificarile necesare functionalitatii proiectului t
 Acum vom trece la treburi putinmai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu remository-ul remote:
 
 ---------------------------------------------------------------------------------------------------
+
+* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 3:
 
