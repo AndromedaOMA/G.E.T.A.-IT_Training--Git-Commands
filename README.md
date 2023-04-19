@@ -1,7 +1,7 @@
 ## Structura ghidului de comenzi GIT:
-* [PART 1: Comenzi destinate initializarii lucrului cu GIT](#part-1:)
-* [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2:) 
-* [PART 3: Comenzi destinate lucrului cu repository-ul remote](#part-3:)
+* [PART 1: Comenzi destinate initializarii lucrului cu GIT](#part-1)
+* [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2) 
+* [PART 3: Comenzi destinate lucrului cu repository-ul remote](#part-3)
 
 --------------------------------------------------------------------------------
 ## PART 1:
