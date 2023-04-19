@@ -34,7 +34,7 @@ Acum trebuie doar sa incepi sa modifici ce vrei sa modifici, apoi vei reveni la 
 
 ---------------------------------------------------------------------------------------------------
 
-* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
+ * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 2:
 
@@ -163,7 +163,7 @@ Acum vom trece la treburi putinmai serioase: lucrul cu repsitory-ul remote/GitHu
 
 ---------------------------------------------------------------------------------------------------
 
-* [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
+ * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 3:
 
