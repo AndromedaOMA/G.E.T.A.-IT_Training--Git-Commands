@@ -2,7 +2,7 @@
 * [PART 1: Comenzi destinate initializarii lucrului cu GIT](#part-1)
 * [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2) 
 * [PART 3: Comenzi destinate lucrului cu repository-ul remote](#part-3)
-
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
 --------------------------------------------------------------------------------
 ## PART 1:
 
@@ -31,7 +31,7 @@ git clone LINK
 Ai reusit sa initiezi tot ce este nevoie pentru a continua modificarea proiectului.
 
 Acum trebuie doar sa incepi sa modifici ce vrei sa modifici, apoi vei reveni la command prompt cu urmatoarele comenzi pentru lucrul cu repository-ul local:
-
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
 ---------------------------------------------------------------------------------------------------
 
  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
@@ -160,7 +160,7 @@ git branch -d NUME
 Ai reusit sa realizez toate modificarile necesare functionalitatii proiectului tau!
 
 Acum vom trece la treburi putinmai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu remository-ul remote:
-
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
 ---------------------------------------------------------------------------------------------------
 
  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
@@ -203,4 +203,5 @@ git fetch
   Exemplul urmator este destul de amplu. Pentru buna intelegere a conceptului de "cofnlicts", va sfatuiesc sa urmariti cu atentie exemplul/ situatia urmatoare: Avem un fisier numit "lista_de_cumparaturi.txt" aflata in repository-ul local si remote numit "LISTA", initial goala. Persoana care detine repository-ul remote "LISTA" doreste sa populeze lista, din repository-ul local, prin adaugarea unor fructe (Banane, Mere si Pere), timp in care o alta persoana, care are acces la repository-ul remote, prin intermediul GitHub, populeaza lista prin adaugarea unor legume (Rosii, Ardei si Morcovi). ATENTIE: Ambele liste sunt independente una de cealalta! Adica prima lista, cea de fructe, inca nu a fost impinsa pe repository-ul remote, iar cea de-a doua lista a fost adaugata direct pe repository-ul remote. Astfel, utilizatorul care detine repository-ul "LISTA" nu va avea posibilitatea de a impinge modificarile sale (prin comanda "git push") si va fi nevoit sa traga informatiile noi din repository-ul remote (prin comanda "git push"). In acest moment, proiectul sau contine atat lista sa de fructe, cat si cea de legume, dar evidentiate ca fiind in conflict. Pentru rezolvarea conflictului, tot ce va mai trebui sa faca acesta este sa pastreze ce modificari doreste, de exemplu sa renunte la lista lui de fructe si sa o pastreze pe cea de legume, considerand ca nu mai are nevoie de cea cu fructe, prin stergerea acesteia, si in final sa stearga si liniile ce ajuta la evidentierea conflictului (acestea sunt marcate prin: "<<<<<<<<HEAD" , "========" si ">>>>>>>> 1231ubhbeh123b1i3b123i21", la final se genereaza un cod random, deci nu va bateti capul cu el). Acum conflictul este rezolvat, deci utilizatorul principal poate impinge noile modificari (prin comanda "git push").
   
   * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
-
+  
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
