@@ -1,7 +1,8 @@
 ## Structura ghidului de comenzi GIT:
 * [PART 1: Comenzi destinate inițializării lucrului cu GIT](#part-1)
-* [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2) 
-* [PART 3: Comenzi destinate lucrului cu repository-ul remote](#part-3)
+* [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2)
+* [PART 3: Generarea și atalarea unei chei SSH contului de GitHub](#part-3) 
+* [PART 4: Comenzi destinate lucrului cu repository-ul remote](#part-4)
  <!--- Made by MJ: https://github.com/AndromedaOMA --->
 --------------------------------------------------------------------------------
 ## PART 1:
@@ -159,13 +160,47 @@ git branch -d NUME
 
 Ai reusit sa realizezi toate modificările necesare funcționalității proiectului tău!
 
-Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu remository-ul remote:
+Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu repository-ul remote:
  <!--- Made by MJ: https://github.com/AndromedaOMA --->
 ---------------------------------------------------------------------------------------------------
 
  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 3:
+
+⭐Pentru început vom deschide Git Bash, pentru ca apoi să scriem liniile următoare de cod:
+
+
+⭐Generarea unei chei SSH:
+```bash
+ssh-keygen -t ed25519 -C "email-ul_folosit_pentru_contul_GitHub@exemplu.com"
+```
+* Unde "email-ul_folosit_pentru_contul_GitHub@exemplu.com" va fi inlocuit cu email-ul asociat contului tău de GitHub.
+
+* Explicație: Pur și simplu se va genera automat o cheie SSH.
+
+* ATENȚIE! La pașii următori veți fi rugat să introduceți directorul unde să vă plaseze cheia generată (directorul default va fi: /c/Users/UserName/.ssh), iar apoi să introduceți o parolă pentru încă un strat de protecție + reintroducerea ei pentru verificare. Modificarea directorului sau introducerea parolei este opțională, deci puteți sări peste aceste etape prin apăsarea tastei "ENTER".
+
+
+⭐Pentru adăugarea cheii SSH generate anterior:
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+* Explicație: Această comandă va afișa pe terminal conținutul fișierului "id_ed25519.pub", adică cheia SSH. Copiați codul/cheia/conținutul acestui fișier și navigați prin contul de GitHub pentru introducerea acestui cod: click pe poza de profil din colțul din dreapta sus -> settings -> SSH nad GPG keys -> click pe butonul verde "New SSH key" -> pe câmpul de sus introduceți numele cheii, iar in cel de jos introduceți codul cheii copiat mai devreme -> click pe butonul verde "Add SSH key".
+
+---------------------------------------------------------------------------------------------------
+
+🥳FELICITĂRI!
+
+Ai reusit sa realizezi toate modificările necesare funcționalității proiectului tău!
+
+Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu repository-ul remote:
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
+---------------------------------------------------------------------------------------------------
+
+ * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
+
+## PART 4:
 
 
 ⭐Asociem un nume (deseori "origin") repositry-ului remote:
