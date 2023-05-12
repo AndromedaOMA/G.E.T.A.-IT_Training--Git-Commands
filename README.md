@@ -96,16 +96,6 @@ git restore NUME_FISIER
 
 ---------------------------------------------------------------------------------------------------
 
-🥳FELICITĂRI!
-
-Ai reusit sa realizezi toate modificările necesare funcționalității proiectului tău!
-
-Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu repository-ul remote:
- <!--- Made by MJ: https://github.com/AndromedaOMA --->
- 
----------------------------------------------------------------------------------------------------
-
-
 ⭐Pentru vizualizarea listei de branch-uri:
 ```bash
 git branch
@@ -163,6 +153,13 @@ git branch -d NUME
 
 * Explicație: Această comandă pur si simplu va sterge branch-ul "NUME", împreuna cu toata informația acestuia.
 
+---------------------------------------------------------------------------------------------------
+🥳FELICITĂRI!
+
+Ai reusit sa realizezi toate modificările necesare funcționalității proiectului tău!
+
+Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu repository-ul remote:
+ <!--- Made by MJ: https://github.com/AndromedaOMA --->
 ---------------------------------------------------------------------------------------------------
 
  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
