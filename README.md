@@ -190,14 +190,6 @@ cat ~/.ssh/id_ed25519.pub
 
 ---------------------------------------------------------------------------------------------------
 
-🥳FELICITĂRI!
-
-Ai reusit sa realizezi toate modificările necesare funcționalității proiectului tău!
-
-Acum vom trece la treburi puțin mai serioase: lucrul cu repsitory-ul remote/GitHub. Astfel, mai departe vom folosi urmatoarele comenzi pentru lucrul cu repository-ul remote:
- <!--- Made by MJ: https://github.com/AndromedaOMA --->
----------------------------------------------------------------------------------------------------
-
  * [Structura ghidului de comenzi GIT](#structura-ghidului-de-comenzi-git)
 
 ## PART 4:
