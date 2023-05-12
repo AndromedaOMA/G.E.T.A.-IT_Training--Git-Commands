@@ -223,6 +223,14 @@ git fetch
 ```
 * Explicație: După apelarea acestei comenzi vom afla dacă există diferențe între proiectul de pe repository-ul local si cel de pe repository-ul remote. Dacă există modificări/diferențe, atunci se vor afișa o multitudine de informații. Nu este nevoie să descifrati aceste informații, afișarea lor evidentieaza faptul că există diferențe între proiectul de pe repository-ul local si cel de pe repository-ul remote. Altfel, dacă nu se afișează nimic, atunci proiectul de pe repository-ul local este același cu cel de pe repository-ul remote.
 
+
+⭐Pentru "trage" eventualele schimbări din repository-ul remote:
+```bash
+git pull
+```
+* Explicație: Pur și simplu vom sincroniza repo-ul local cu cel remote.
+
+
 * ATENȚIE! Există posibilitatea ca după actualizarea proiectului tău pe repository-ul local, prin comanda "git pull", să primiți o eroare de "conflicts", împreună cu locația/fișierul unde se află conflictul. Această eroare se poate rezolva prin deschiderea fișierului respectiv și remedierea situatiei prin simpla editare de cod.
 
   Exemplul urmator este destul de amplu. Pentru buna înțelegere a conceptului de "cofnlicts", vă sfătuiesc să urmariți cu atentie exemplul/situația următoare: Avem un fișier numit "lista_de_cumparaturi.txt" aflată în repository-ul local si remote numit "LISTA", initial goală. Persoana care deține repository-ul remote "LISTA" dorește să populeze lista, din repository-ul local, prin adaugărea unor fructe (Banane, Mere si Pere), timp în care o alta persoană, care are acces la repository-ul remote "LISTA", prin intermediul GitHub, populează lista prin adăugarea unor legume (Roșii, Ardei si Morcovi). ATENȚIE: Ambele liste sunt independente una de cealaltă! Adică prima listă, cea de fructe, incă nu a fost "împinsă" pe repository-ul remote, iar cea de-a doua listă a fost adăugată direct pe repository-ul remote. Astfel, utilizatorul care deține repository-ul "LISTA" nu va avea posibilitatea de a împinge modificările sale (prin comanda "git push") și va fi nevoit să tragă informatiile noi din repository-ul remote (prin comanda "git push"). În acest moment, proiectul său conține atât lista sa de fructe, cat și cea de legume, dar evidențiate ca fiind în conflict. Pentru rezolvarea conflictului, tot ce va mai trebui să facă acesta este să păstreze ce modificări dorește, de exemplu să renunțe la lista lui de fructe și să o păstreze pe cea de legume, considerand că nu mai are nevoie de cea cu fructe, prin stergerea acesteia, și în final să șteargă și liniile ce ajută la evidențierea conflictului (acestea sunt marcate prin: "<<<<<<<<HEAD" , "========" si ">>>>>>>> 1231ubhbeh123b1i3b123i21", la final se genereaza un cod random, deci nu vă bateti capul cu el). Acum conflictul este rezolvat, deci utilizatorul principal poate împinge noile modificări (prin comanda "git push").
