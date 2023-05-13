@@ -1,7 +1,7 @@
 ## Structura ghidului de comenzi GIT:
 * [PART 1: Comenzi destinate inițializării lucrului cu GIT](#part-1)
 * [PART 2: Comenzi destinate lucrului cu repository-ul local](#part-2)
-* [PART 3: Generarea și atalarea unei chei SSH contului de GitHub](#part-3) 
+* [PART 3: Generarea și atașarea unei chei SSH contului de GitHub](#part-3) 
 * [PART 4: Comenzi destinate lucrului cu repository-ul remote](#part-4)
  <!--- Made by MJ: https://github.com/AndromedaOMA --->
 --------------------------------------------------------------------------------
