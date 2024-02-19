@@ -67,7 +67,7 @@ git add NUME_FISIER
 ```bash
 git commit -m "MESAJ"
 ```
-* Unde "MESAJ" va fi înlocuit cu un o descriere a modificării tale. De exemplu: "Am adaugat logo-ul site-ului pe pagina principala", descriere sugestivă pentru modificarea făcută anterior.
+* Unde "MESAJ" va fi înlocuit cu un o descriere a modificării tale. De exemplu: "Logo modificat in pagina principala", descriere sugestivă pentru modificarea făcută anterior.
 
 * Explicație: Faci commit la modificările tale, adică creezi o etichetă schimbărilor prin care specifici ce ai schimbat prin mesajul aflat între ghinimele.
 
